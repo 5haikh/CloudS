@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The CloudS:Welcome Page.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid p-0">
+
+		<!-- Navigation bar -->
+
+		<nav class="navbar navbar-expand-md sticky-top navbar-dark">
+			<!-- Brand -->
+			<a class="navbar-brand" href="index.html">CloudS</a>
+
+			<!-- Toggler/collapsibe Button -->
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link listHover" href="#">SignUp</a>
+				</li>
+	
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle listHover" href="#" id="navbardrop" data-toggle="dropdown">
+						SignIn
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">DataUser</a>
+						<a class="dropdown-item" href="#">DataManager</a>
+						<a class="dropdown-item" href="#">CloudManager</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link listHover" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link listHover" href="#">About</a>
+				</li>
+			</ul>
+		 	</div>
+		</nav>
+		<!-- navigationbar end here -->
+
+		
+		<!-- first section -->
+		<section id="firstSection" class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-header">DATA USER</div>
+						<div class="card-body">
+							<h5 class="card-title">Who is Data User?</h5>
+							<p class="card-text text-justify">Data user can request for desired data from it's owner. Data on this cloud is encrypted also the keyword which is used to search the product is also enctypted, because we care for your security and privacy.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-header">DATA MANAGER</div>
+						<div class="card-body">
+							<h5 class="card-title">Who is Data Manager?</h5>
+							<p class="card-text text-justify">Data manager can upload the data on to cloud and that data is verified by the cloud manager and it's approved to uploaded on cloud. Along with the data the keywords also needs to entred for data privacy :)</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-header">CLOUD MANAGER</div>
+						<div class="card-body">
+							<h5 class="card-title">Who is Cloud Manager?</h5>
+							<p class="card-text text-justify">Cloud manager is responsible for the data managment on cloud and authorize the users and data managers on to the cloud & cloud manager can blah </p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<!-- end first section -->
+
+		<!-- second section -->
+			<section id="secondSection"> 
+				<p>SignIn or SignUp from menu to just get started.</p>
+			</section>
+		<!-- end second section -->
+
+
+		<section id="thirdSection" class="text-justify">
+			<h1 class="text-center">What's use of this?</h1><hr>
+			<p>The entire product retrieval system model is composed primarily of three entities: the data manager, the cloud server and the data user.</p>
+			<p>The data manager is responsible for managing the product and collecting the product information. In addition, the data manager needs to encrypt the product information file by a symmetric encryption technique before outsourcing the data to the cloud server. To improve the security of the files, each file is encrypted by a single secret key, and the keys of different files are independent. Furthermore, to improve the search efficiency, an index structure is constructed for the outsourced data. At first, an identifier index structure is constructed based on the hash function and height-balanced binary search tree. Then, a feature vector tree is built for all the feature vectors of the product, and it is encrypted by the secure kNN algorithm.</p>
+			<p>When a data user wants to search a set of chosen products, she needs to generate a trapdoor to describe her interest. Two types of the trapdoor can be provided, i.e., a set of hash values of the desired product information files or a set of feature vectors. For the first type of trapdoor, a set of encrypted files with the same hash identifiers are returned, and for the second type trapdoor, the most relevant encrypted files are returned. The data user can obtain the plaintext files by decrypting the returned files with the help of the symmetric secret keys. These secret keys are provided by the data manager.</p>
+			<p>The cloud server stores all the data uploaded by the data manager. When a data user needs to search the data in the cloud, she first generates a trapdoor, which is sent to the cloud server. A search engineer is employed by the cloud server to act as a bridge between the data users and the encrypted data. Though the cloud server cannot get the plaintexts of the data, it should be capable of sending the accurate search result of the trapdoor to the data users. Of course, the returned data are ciphertext, and the data user needs to decrypt them by the symmetric secret keys which are provided by the data manager.</p>			
+		</section>
+		
+		<footer class="Footer1 text-center">
+			&copy; 5haikh
+		</footer>
+	</div>
+</body>
+</html>
