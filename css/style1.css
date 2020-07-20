@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.card{
+	border: 1px solid #777777;
+	background-color: #34414e;
+	color: white;
+}
+
+.dIv{
+	height: 100vh;
+}

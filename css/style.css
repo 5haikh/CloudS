@@ -1,5 +1,5 @@
 nav {
-	background-color: #6699cc !important;
+	background-color: #34414e !important;
 	display: block;
 	box-shadow: 0px 8px 10px 0px #777777;
 	-moz-box-shadow: 0px 8px 10px 0px #777777;
@@ -29,7 +29,7 @@ nav {
 @media screen and (min-width: 768px){
 	.listHover:hover{
 		background-color: white !important;
-		color: #6699cc !important;
+		color: #34414e !important;
 		border-radius: .2em;
 	}
 }
@@ -44,7 +44,7 @@ nav {
 .card{
 	min-height: 90%;
 	background-color: white;
-	color: #6699cc !important;
+	color: #34414e !important;
 	margin: 20px 0;
 	box-shadow: 0px 8px 10px 0px #777777;
 	-moz-box-shadow: 0px 8px 10px 0px #777777;
@@ -53,7 +53,7 @@ nav {
 }
 
 .card-header{
-	background-color: #6699cc !important;
+	background-color: #34414e !important;
 	color: white !important;
 	text-align: center;
 }
@@ -61,7 +61,7 @@ nav {
 /* first section end */
 
 #secondSection{
-	background-color: #6699cc;
+	background-color: #34414e;
 	color: white;
 	text-align: center;
 	margin-top: 10px;
@@ -72,7 +72,7 @@ section#secondSection p{
 }
 
 .Footer1{
-	background-color: #6699cc;
+	background-color: #34414e;
 	color: white;
 	padding: 10px;
 }
@@ -80,8 +80,8 @@ section#secondSection p{
 
 /* third section */
 #thirdSection{
-	color: #6699cc !important;
-	border: 2px solid #6699cc;
+	color: #34414e !important;
+	border: 2px solid #34414e;
 	margin: 20px;
 	padding: 20px;
 }
