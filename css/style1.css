@@ -10,6 +10,62 @@
 	color: white;
 }
 
+.card-header{
+	border-bottom: 1px solid white !important;
+}
+
 .dIv{
 	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+.card-body{
+	width: 100%;
+	text-align: center;
+	margin: 30px auto 20px;
+}
+
+.heAding{
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.form-control{
+	border: 1px solid white;
+	background-color: #34414e;
+	color: white;
+	letter-spacing: 1px;
+	border-radius: 2px;
+}
+
+.form-control:focus{
+	border: 1px solid white;
+	background-color: #34414e;
+	color: white;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	box-shadow: none;
+}
+
+.btn{
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: #34414e;
+	width: 50%;
+}
+
+.btn:hover{
+	background-color: #34414e;
+	border-radius: 50px;
+	color: white;
+	border: 1px solid white;
+}
+
+.regUser a{
+	color: white;
 }
